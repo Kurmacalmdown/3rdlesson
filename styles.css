@@ -1,0 +1,116 @@
+body {
+    background-image: url(smoke.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+h2 {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: whitesmoke;
+}
+  .container {
+   
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+  }
+  
+  .cap {
+    width: 60px;
+    height: 25px;
+    
+  }
+  
+  .sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+  }
+  
+  .cap, .sleeve {
+    display: inline-block;
+  }
+  
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  }
+  
+  .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
+  
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+  }
+
+  /* malboro red */
+  .filter {
+    width: 60px;
+    height: 25px;
+    
+  }
+  
+  .malboro-red {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    border-left: 3px solid rgba(71, 70, 70, 0.75);
+  }
+
+  .malboror {
+    background: linear-gradient(#ce6209, #b98922, #d66406);
+    box-shadow: 0 0 10px 0 #3B7E20CC;
+  }
+
+  .filter, .malboro-red, .malboro-green, .malboro-blue {
+    display: inline-block;
+  }
+  
+  /* malboro green */
+
+  .malboro-green {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    border-left: 3px solid black;
+  }
+  
+  .malborog {
+    background: linear-gradient(#0c3304, #61e017, #03410e);
+    box-shadow: 0 0 10px 0 #3B7E20CC;
+  }
+
+   /* malboro blue */
+
+   .malboro-blue {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    border-left: 3px solid rgb(1, 1, 15);
+  }
+  
+  .malborob {
+    background: linear-gradient(#070981, #5544e9, #0e0680);
+    box-shadow: 0 0 10px 0 #3B7E20CC;
+  }
